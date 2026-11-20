@@ -1,0 +1,8 @@
+serviceAccount:
+  create: true
+  name: "aws-load-balancer-controller"
+clusterName: "devops-eks"
+image:
+  repository: "public.ecr.aws/eks/aws-load-balancer-controller"
+region: eu-central-1
+defaultTargetType: "ip"
